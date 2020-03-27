@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <h1 class="anim">Yo, you see this?</h1>
+      <img src="/orange.jpg" alt="Orange Jelly" width="800" height="600" />
+    </section>
+    <section>
+      <h1 class="anim">It's darn cool</h1>
+    </section>
+    <section>
+      <h1 class="anim">I know, right?</h1>
+    </section>
+
+    <svg viewBox="0 0 500 500">
+      <style type="text/css">
+        .text {
+          text-transform: uppercase;
+          fill: #e6e6e6;
+          font-weight: bold;
+        }
+      </style>
+
+      <path d="M33.5 39.5v429h437v-429h-431" id="our-text" fill="#fff" />
+      <text y="40" font-size="30" font-family="Quicksand, Arial">
+        <textPath id="text-path" class="text" href="#our-text">
+          Yeah, let me check it out real quick
+        </textPath>
+      </text>
+    </svg>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
